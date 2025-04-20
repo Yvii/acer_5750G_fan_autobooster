@@ -4,7 +4,7 @@ This script monitors the CPU temperature on an Acer Aspire 5750G and triggers th
 
 It integrates with the original fan control idea by [neduard](https://github.com/neduard/acer_5750G_fan_maximiser) and adds automatic temperature-based activation.
 
-# WARNING: this is software that writes values to unknown ports on your laptop. This can easily cause BRICKING of your device. You have been warned.
+**WARNING:** this is software that writes values to unknown ports on your laptop. This can easily cause BRICKING of your device. The script has only been tested for the Acer Aspire 5750G. Use at your own risk. You have been warned.
 
 ## Features
 
@@ -16,7 +16,7 @@ It integrates with the original fan control idea by [neduard](https://github.com
 ## Requirements
 
 - `perl`
-- The original Perl script [neduard](https://github.com/neduard/acer_5750G_fan_maximiser/blob/master/acer_5750G_fan_controller.pl)
+- The original Perl script by [neduard](https://github.com/neduard/acer_5750G_fan_maximiser/blob/master/acer_5750G_fan_controller.pl)
 - `lm_sensors`
 - Access to `/dev/port` (usually requires `sudo`)
 - `sudo` permissions for the fan override script without password (optional but recommended)
