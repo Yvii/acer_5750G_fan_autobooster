@@ -23,20 +23,22 @@ It integrates with the original fan control idea by [neduard](https://github.com
 
 ## Setup
 
-1. Clone this repo
-2. Make the script executable:
+1. Download the Shell script (Press `Download raw File`) (https://github.com/Yvii/acer_5750G_fan_autobooster/blob/main/fanwatch.sh)
+2. Download the original Perl fan control script from neduard’s repo: (https://github.com/neduard/acer_5750G_fan_maximiser/blob/master/acer_5750G_fan_controller.pl)
+3. Edit the fanwatch.sh script and update the path to the Perl script.
+4. Make the script executable:
 
     ```bash
     chmod +x fanwatch.sh
     ```
 
-3. Run manually to test:
+5. Run manually to test:
 
     ```bash
     ./fanwatch.sh
     ```
 
-4. [Optional] Autostart the script on Boot 
+6. [Optional] Autostart the script on Boot
 
 
 
